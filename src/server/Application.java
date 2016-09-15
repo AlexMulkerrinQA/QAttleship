@@ -70,7 +70,7 @@ public class Application extends QAFrame implements Runnable{
 			mapPanel.repaint();
 			sysInfoPanel.contents.setText("Place your fleet commander! "+game.frame);
 			try {
-				Thread.sleep(20);
+				Thread.sleep(500);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
