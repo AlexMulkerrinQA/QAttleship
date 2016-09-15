@@ -71,11 +71,8 @@ public abstract class QAFrame  extends JFrame implements KeyListener {
 	}
 	
 	// keyboard event listeners
-	@Override
 	public void keyPressed(KeyEvent e) { handleKeys(); }
-	@Override
 	public void keyReleased(KeyEvent e) { handleKeys(); }
-	@Override
 	public void keyTyped(KeyEvent e) { handleKeys(); }
 		
 	public abstract void handleKeys();
